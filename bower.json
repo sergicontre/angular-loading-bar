@@ -1,6 +1,6 @@
 {
-  "name": "angular-loading-bar",
-  "version": "0.3.0",
+  "name": "angular-advance-loading",
+  "version": "0.0.1",
   "main": ["src/loading-bar.js", "src/loading-bar.css"],
   "ignore": [
     "**/.*",
