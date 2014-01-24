@@ -1,7 +1,7 @@
 {
-  "name": "angular-loading-bar",
-  "version": "0.3.0",
-  "description": "An automatic loading bar for AngularJS",
+  "name": "angular-advance-loading",
+  "version": "0.0.1",
+  "description": "Fork of angular-loading-bar. An automatic loading bar for AngularJS",
   "main": "src/loading-bar.js",
   "directories": {
     "example": "example",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chieffancypants/angular-loading-bar.git"
+    "url": "git://github.com/sergicontre/angular-loading-bar"
   },
   "keywords": [
     "angular",
@@ -22,7 +22,7 @@
   "author": "Wes Cruver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chieffancypants/angular-loading-bar/issues"
+    "url": "https://github.com/sergicontre/angular-loading-bar/issues"
   },
   "homepage": "https://chieffancypants.github.io/angular-loading-bar",
   "devDependencies": {
