@@ -155,6 +155,7 @@ angular.module('chieffancypants.loadingBar', [])
 
     this.includeSpinner = true;
     this.includeBar = true;
+    this.textSpinner = 'Loading...';
     this.latencyThreshold = 100;
     this.parentSelector = 'body';
 
@@ -164,7 +165,7 @@ angular.module('chieffancypants.loadingBar', [])
         $parent = $document.find($parentSelector),
         loadingBarContainer = angular.element('<div id="loading-bar"><div class="bar"><div class="peg"></div></div></div>'),
         loadingBar = loadingBarContainer.find('div').eq(0),
-        spinner = angular.element('<div id="loading-bar-spinner"><div class="spinner-icon"></div></div>');
+        spinner = angular.element('<div id="loading-top-layer"><div id="loading-bar-spinner"><center><div class="spinner-icon"></div>'+ this.textSpinner +'</center></div></div>');
 
       var incTimeout,
         completeTimeout,
@@ -173,6 +174,8 @@ angular.module('chieffancypants.loadingBar', [])
 
       var includeSpinner = this.includeSpinner;
       var includeBar = this.includeBar;
+      var textSpinner = this.textSpinner;
+
 
       /**
        * Inserts the loading bar element into the dom, and sets it to 2%
